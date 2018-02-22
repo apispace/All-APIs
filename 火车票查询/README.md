@@ -1,13 +1,18 @@
-## API Shop的API代码示例合集
-本文档提供目前API Shop上已上线的接口调用代码示例，具体请查看各接口下的文件夹。
+## 火车票查询 API
+提供全国火车票、火车车站和火车余票查询
 
-**若您想使用API Shop提供的接口，您需要先通过 [https://www.apishop.net](https://www.apishop.net/) 申请API服务**
+**使用该产品前，您需要通过 [https://www.apishop.net/#/api/detail/?productID=91](https://www.apishop.net/#/api/detail/?productID=91) 申请API服务**
 
-为同步API Shop最新上线的接口，本文长期有效且不断更新。
+**该产品拥有以下APIs：**
+1. 余票查询
+2. 车次信息查询
+3. 站到站车票查询
+	
+本文档提供 **火车票查询** 的API调用代码示例,具体请查看code文件夹。
 
 ---
 
-**本文档由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
+**本API由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
 
 API Shop提供两种数据类型：
 1. **在线API**，即接即用，提供包括短信、天气、物流、语音识别等多个方面的接口；

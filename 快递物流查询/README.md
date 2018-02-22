@@ -1,13 +1,17 @@
-## API Shop的API代码示例合集
-本文档提供目前API Shop上已上线的接口调用代码示例，具体请查看各接口下的文件夹。
+## 快递物流查询 API
+自动识别快递公司，提供包括申通、顺丰、圆通、韵达、中通、汇通、EMS、天天、国通、德邦、宅急送等几百家快递物流公司单号查询接口
 
-**若您想使用API Shop提供的接口，您需要先通过 [https://www.apishop.net](https://www.apishop.net/) 申请API服务**
+**使用该产品前，您需要通过 [https://www.apishop.net/#/api/detail/?productID=103](https://www.apishop.net/#/api/detail/?productID=103) 申请API服务**
 
-为同步API Shop最新上线的接口，本文长期有效且不断更新。
+**该产品拥有以下APIs：**
+1. 获取快递公司
+2. 查询快递信息
+	
+本文档提供 **快递物流查询** 的API调用代码示例,具体请查看code文件夹。
 
 ---
 
-**本文档由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
+**本API由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
 
 API Shop提供两种数据类型：
 1. **在线API**，即接即用，提供包括短信、天气、物流、语音识别等多个方面的接口；

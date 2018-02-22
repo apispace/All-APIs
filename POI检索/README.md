@@ -1,13 +1,18 @@
-## API Shop的API代码示例合集
-本文档提供目前API Shop上已上线的接口调用代码示例，具体请查看各接口下的文件夹。
+## POI检索 API
+通过关键词查询在某个地区的POI信息，支持市级、区县级查询：比如在广州查询“银行”，接口将会输出所有银行的地理信息列表。
 
-**若您想使用API Shop提供的接口，您需要先通过 [https://www.apishop.net](https://www.apishop.net/) 申请API服务**
+**使用该产品前，您需要通过 [https://www.apishop.net/#/api/detail/?productID=97](https://www.apishop.net/#/api/detail/?productID=97) 申请API服务**
 
-为同步API Shop最新上线的接口，本文长期有效且不断更新。
+**该产品拥有以下APIs：**
+1. POI搜索
+2. 周边POI搜索
+3. POI多边形搜索
+	
+本文档提供 **POI检索** 的API调用代码示例,具体请查看code文件夹。
 
 ---
 
-**本文档由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
+**本API由eoLinker - APISHOP提供，[API Shop（apishop.net）](https://www.apishop.net/)是eoLinker旗下的数据交易平台，为个人及企业提供标准化及定制化的API接口。**
 
 API Shop提供两种数据类型：
 1. **在线API**，即接即用，提供包括短信、天气、物流、语音识别等多个方面的接口；
